@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Data Visualization</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Data Visualization</h1>
+  </header>
+  <div class="search-container">
+    <input type="text" id="city-input" placeholder="Enter city name">
+    <button id="search-button">Search</button>
+  </div>
+  <div id="city-weather"></div> 
+  <div class="container">
+    <div class="chart-container">
+      <div id="chart"></div>
+    </div>
+    <div class="heatmap-container">
+      <div id="heatmap"></div>
+    </div>
+    <div class="line-chart-container">
+      <div id="line-chart"></div>
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
